@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/insertitems.css"/>
+    <title>Insert Items</title>
+</head>
+<body>
+  <div class="contact-us">
+    <form action="php/insertitems.php" method="post">
+      <input name="productname" id="productname" placeholder="Product_Name" type="text"/>
+      <input name="quantity" id="quantity" placeholder="Quantity" type="text"/>
+      <input name="price" id="price" placeholder="Price" type="text"/>
+      <input name="type" id="type" placeholder="Type" type="text"/>
+      <input name="serialno" id="serialno" placeholder="SerialNumber" type="text"/>
+      <input name="expdate" id="expdate" placeholder="ExpiryDate" type="text"/>
+      <input name="avail" id="avail" placeholder="Availability" type="text"/>
+      <button type="submit" >Insert</button>
+    </form> 
+  </div>
+</body>
+</html>
